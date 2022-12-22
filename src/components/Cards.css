@@ -1,0 +1,44 @@
+.productImage{
+    height: 200px;
+    width: auto;
+}
+.cardLay:hover{
+    box-shadow: 0 0 10px 5px rgba(173, 173, 173, 0.479);
+    transform: scale(1.03);
+    transition: 0.7s;
+}
+.cardLay{
+    width: 15rem;
+    height: 30rem;
+    box-shadow: 0 0 10px 5px rgba(207, 207, 207, 0.479);
+}
+.card-title{
+    font-size: 16px;
+}
+.card-text{
+    font-size: 10px;
+}
+.btn{
+    margin: 20px;
+}
+.user-rating{
+    background: green;
+    margin: 10px 0px 0px;
+    font-size: 13px;
+    width: 35px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+.product-pricing{
+    margin: 10px 0px;
+}
+.wrapper{
+    text-align: center;
+}
+.card-body {
+    text-align: left;
+}
+p {
+    font-size: 10px;
+}
