@@ -8,12 +8,9 @@
     transition: 0.7s;
 }
 .cardLay{
+    border-radius: 0px;
     width: 15rem;
     height: 30rem;
-    box-shadow: 0 0 10px 5px rgba(207, 207, 207, 0.479);
-}
-.card-title{
-    font-size: 16px;
 }
 .card-text{
     font-size: 10px;
@@ -31,7 +28,7 @@
     color: rgb(255, 255, 255);
 }
 .product-pricing{
-    margin: 10px 0px;
+    margin: 10px 0px 0px;
 }
 .wrapper{
     text-align: center;
@@ -41,4 +38,13 @@
 }
 p {
     font-size: 10px;
+}
+.card-title {
+    font-size: 16px;
+    overflow: hidden;
+    height: 20px;
+}
+.round-btn{
+    border: none;
+    font-size: 20px;
 }

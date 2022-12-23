@@ -17,8 +17,6 @@ const getUsers =() => {
     return (
         <>
             <Cards users={users}/>
-            {
-    console.log(users)}
         </>
     )
 }
