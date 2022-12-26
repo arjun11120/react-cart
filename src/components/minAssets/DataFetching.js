@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Cards from './Cards';
+import Cards from '../Home/Cards';
 import axios from "axios";
 
 const DataFetching = () => {

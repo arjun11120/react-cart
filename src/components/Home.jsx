@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from './Header'
-import DataFetching from './DataFetching'
+import Header from './Home/Header'
+import DataFetching from './minAssets/DataFetching'
 
 function Home() {
   return (
